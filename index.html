@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mon projet canvas</title>
+	<script>
+		window.onload = function() {
+
+	var canvas = document.getElementById("paper"),
+
+		c = canvas.getContext("2d");
+	
+		c.beginPath();
+		c.moveTo(190,145);
+		c.lineTo(200,200);
+		c.stroke();
+
+		c.beginPath();
+		c.moveTo(190,145);
+		c.lineTo(500,5);
+		c.stroke();
+
+		c.beginPath();
+		c.moveTo(200,100);
+		c.lineTo(2,20);
+		c.stroke();
+};
+	</script>
+</head>
+<body>
+</body>
+<canvas id="paper" width="500" height="500">
+	
+
+</canvas>
+</html>
